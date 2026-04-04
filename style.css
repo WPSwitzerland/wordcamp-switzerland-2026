@@ -266,7 +266,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .c-footer .wp-block-group.is-style-section-1 + .wp-block-group.is-style-section-1 {
-    margin-block-start: 4rem !important;
+    margin-block-start: 4rem !important; 
 }
 
 .c-postcard {
