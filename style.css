@@ -265,6 +265,10 @@ h1, h2, h3, h4, h5, h6 {
     margin-inline: 0 !important;
 }
 
+.c-footer .wp-block-group.is-style-section-1 + .wp-block-group.is-style-section-1 {
+    margin-block-start: 2rem;
+}
+
 .c-postcard {
     display: grid;
     grid-template-columns: 1fr;
