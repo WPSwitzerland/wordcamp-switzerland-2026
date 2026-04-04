@@ -12,6 +12,36 @@
     line-height: 1.2;
 }
 
+@media screen and (min-width: 768px) {
+    .c-main-title {
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .c-main-title {
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .c-main-title {
+        font-size: 41px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .c-main-title {
+        font-size: 44px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .c-main-title {
+        font-size: 44px;
+    }
+}
+
 .c-content__columns {
     display: grid;
     align-items: start;
@@ -84,6 +114,11 @@
 .c-sidebar__image {
     width: 100% !important;
     height: auto !important;
+    max-width: none;
+}
+
+.c-sidebar__image img {
+    width: 100%;
 }
 
 .wp-block-post-content > * {
