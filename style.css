@@ -18,6 +18,13 @@ a:focus {
 	outline-offset: .125rem;
 }
 
+@supports (outline-color: color-mix(in srgb, currentColor 65%, transparent 100%)) {
+	a:focus {
+		outline-color: color-mix(in srgb, currentColor 65%, transparent 100%);
+	}
+}
+
+
 html {
 	scroll-behavior: smooth;
 }
