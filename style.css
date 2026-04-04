@@ -61,6 +61,16 @@
     }
 }
 
+.c-content__sidebar-inner-inner {
+    padding-inline: 1rem;
+}
+
+@media screen and (min-width: 782px) {
+    .c-content__sidebar-inner-inner {
+        padding-inline: 0;
+    }
+}
+
 .c-sidebar__image {
     width: 100% !important;
     height: auto !important;
