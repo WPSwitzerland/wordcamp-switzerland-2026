@@ -190,6 +190,7 @@
 }
 
 .wp-block-post-content > .wp-block-heading,
+.wp-block-post-content > .wp-block-post-title,
 .wp-block-post-content > .wp-block-image,
 .wp-block-post-content > .wp-block-embed,
 .wp-block-post-content > .wp-block-video,
@@ -206,6 +207,7 @@
 
 @media screen and (min-width:782px){
     .wp-block-post-content > .wp-block-heading,
+    .wp-block-post-content > .wp-block-post-title,
     .wp-block-post-content > .wp-block-image,
     .wp-block-post-content > .wp-block-embed,
     .wp-block-post-content > .wp-block-video,
