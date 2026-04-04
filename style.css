@@ -259,7 +259,7 @@
 }
 
 .c-postcard .wp-block-post-excerpt {
-    font-size: clamp(0.938rem, 0.804rem + 0.67vw, 1.125rem);
+    font-size: clamp(0.938rem, 0.891rem + 0.234vw, 1.125rem);
 }
 
 .c-postcard .wp-block-post-featured-image {
