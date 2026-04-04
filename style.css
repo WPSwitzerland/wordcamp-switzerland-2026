@@ -274,7 +274,7 @@ figure {
     margin: 0;
 }
 
-/*@container (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .c-postcard .wp-block-post-featured-image {
         grid-column: 1;
         grid-row: 1;
@@ -285,4 +285,4 @@ figure {
         grid-row: 1;
         padding-top: 2rem;
     }
-}*/
+}
