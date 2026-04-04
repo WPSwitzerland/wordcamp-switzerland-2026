@@ -95,11 +95,11 @@
     .c-content__sidebar {
         grid-row: 1;
         position: sticky;
-        top: var(--wp--preset--spacing--60);
+        top: 2rem;
     }
 
     .admin-bar .c-content__sidebar {
-        top: calc(var(--wp--preset--spacing--60) + var(--wp-admin--admin-bar--height, 0));
+        top: calc(2rem + var(--wp-admin--admin-bar--height, 0));
     }
 }
 
@@ -248,4 +248,8 @@
     .wp-block-group.is-style-section-1 > .wp-block-group {
         padding-inline-start: 0;
     }
+}
+
+.c-main {
+    margin-top: 0 !important;
 }
