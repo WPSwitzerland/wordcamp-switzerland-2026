@@ -5,8 +5,8 @@
 }
 
 :root :where(a:where(:not(.wp-element-button)):hover) {
-	text-decoration: revert-layer;
-	text-decoration-color: color-mix(in srgb, currentColor 100%, transparent 100%);
+	text-decoration-line: revert-layer;
+	text-decoration-color: currentColor;
 }
 
 html {
