@@ -156,6 +156,10 @@
     }
 }
 
+.wp-block-post-content {
+	padding-inline: 0 !important;
+}
+
 .wp-block-post-content > * {
     padding-inline-start: 1rem;
 }
