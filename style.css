@@ -160,3 +160,17 @@
         padding-inline-start: 2rem;
     }
 }
+
+.wp-block-group.is-style-section-1 {
+    background-color: none;
+    padding: 0;
+}
+
+.wp-block-group.is-style-section-1 > * {
+    padding-inline-start: 1rem;
+}
+
+.wp-block-group.is-style-section-1 > .alignfull {
+    margin-inline: 0 !important;
+}
+
