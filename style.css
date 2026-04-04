@@ -103,6 +103,10 @@
     }
 }
 
+.c-content__sidebar-inner {
+    position: relative;
+}
+
 .c-content__sidebar-inner-inner {
     padding-inline: 1rem;
 }
@@ -121,6 +125,14 @@
     .c-content__sidebar-inner-inner > :not(figure){
         padding-inline: 2rem;
     }
+}
+
+.c-sidebar .wp-block-post-featured-image {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(50% - 6px);
 }
 
 .c-sidebar__image {
