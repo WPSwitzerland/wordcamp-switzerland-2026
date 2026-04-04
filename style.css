@@ -260,3 +260,7 @@
 .wp-block-navigation .current-menu-item a {
     font-weight: 600;
 }
+
+.c-footer .alignfull {
+    margin-inline: 0 !important;
+}
