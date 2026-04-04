@@ -256,3 +256,7 @@
         padding-top: 2rem;
     }
 }
+
+.wp-block-navigation .current-menu-item a {
+    font-weight: 500;
+}
