@@ -1,5 +1,6 @@
 :where(figure) {
     margin: 0;
+    max-width: 100%;
 }
 
 .is-style-text-subtitle {
@@ -243,4 +244,40 @@
 
 .c-footer .alignfull {
     margin-inline: 0 !important;
+}
+
+.c-postcard {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
+@media screen and (min-width:782px){
+    .c-postcard {
+        gap: 2rem;
+        grid-template-columns: minmax(0,1fr) minmax(0,2fr);
+    }
+}
+
+.c-postcard figure {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.c-postcard > .wp-block-group {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+@media screen and (min-width:782px){
+    .c-postcard figure {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    .c-postcard > .wp-block-group {
+        grid-column: 2;
+        grid-row: 1;
+        padding-top: 2rem;
+    }
 }
