@@ -58,6 +58,12 @@
     }
 }
 
+@media screen and (min-width: 1280px) {
+    .c-content__columns {
+        grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    }
+}
+
 @media screen and (min-width: 1440px) {
     .c-content__columns {
         grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
