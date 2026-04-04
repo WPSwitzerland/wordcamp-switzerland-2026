@@ -225,10 +225,6 @@
 }
 
 .wp-block-group.is-style-section-1 > .wp-block-heading,
-.wp-block-group.is-style-section-1 > .wp-block-image,
-.wp-block-group.is-style-section-1 > .wp-block-embed,
-.wp-block-group.is-style-section-1 > .wp-block-video,
-.wp-block-group.is-style-section-1 > .wp-block-jetpack-map,
 .wp-block-group.is-style-section-1 > .wp-block-group {
     padding-inline-start: 0;
 }
@@ -245,10 +241,6 @@
 
 @media screen and (min-width:782px){
     .wp-block-group.is-style-section-1 > .wp-block-heading,
-    .wp-block-group.is-style-section-1 > .wp-block-image,
-    .wp-block-group.is-style-section-1 > .wp-block-embed,
-    .wp-block-group.is-style-section-1 > .wp-block-video,
-    .wp-block-group.is-style-section-1 > .wp-block-jetpack-map,
     .wp-block-group.is-style-section-1 > .wp-block-group {
         padding-inline-start: 0;
     }
