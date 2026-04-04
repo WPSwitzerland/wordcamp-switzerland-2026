@@ -251,7 +251,7 @@
     container-type: inline-size;
 }
 
-@container (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .c-postcard {
         gap: 2rem;
         grid-template-columns: minmax(0,1fr) minmax(0,2fr);
