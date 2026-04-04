@@ -127,7 +127,7 @@
     }
 }
 
-.c-sidebar .wp-block-post-featured-image {
+.c-content__sidebar-inner .wp-block-post-featured-image {
     margin: 0;
     position: absolute;
     top: 0;
