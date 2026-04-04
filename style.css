@@ -1,6 +1,12 @@
-a {
-	text-decoration-color: color-mix(in srgb, currentColor 75%, transparent 100%);
+:root :where(a:where(:not(.wp-element-button))) {
+	text-decoration-color: color-mix(in srgb, currentColor 65%, transparent 100%);
     text-underline-offset: .25rem;
+	transition: text-decoration-color 600ms ease;
+}
+
+:root :where(a:where(:not(.wp-element-button)):hover) {
+	text-decoration: revert-layer;
+	text-decoration-color: color-mix(in srgb, currentColor 100%, transparent 100%);
 }
 
 html {
