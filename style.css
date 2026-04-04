@@ -115,10 +115,6 @@ h1, h2, h3, h4, h5, h6 {
     grid-row: 2;
 }
 
-.c-content__body a:not(.wp-block-button__link) {
-    font-weight: 600;
-}
-
 @media screen and (min-width: 783px) {
     .c-content__body {
         grid-row: 1;
