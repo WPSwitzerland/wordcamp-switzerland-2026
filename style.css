@@ -287,7 +287,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .wp-block-navigation .current-menu-item a,
-body.single .c-content__sidebar c-navigation-item--latest-news a {
+body.single .c-content__sidebar .c-navigation-item--latest-news a {
     font-weight: 600;
 }
 
