@@ -9,6 +9,11 @@
 	text-decoration-color: currentColor;
 }
 
+*:focus {
+	outline-color: currentColor;
+	outline-offset: .125rem;
+}
+
 html {
 	scroll-behavior: smooth;
 }
