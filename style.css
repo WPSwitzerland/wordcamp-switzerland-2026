@@ -133,6 +133,12 @@
     width: 100%;
 }
 
+@media screen and (min-width: 600px){
+    .c-header {
+        display: none;
+    }
+}
+
 .wp-block-post-content > * {
     padding-inline-start: 1rem;
 }
