@@ -338,7 +338,7 @@ div.sharedaddy h3.sd-title {
     font-weight: 500 !important;
 }
 
-body.single .c-content__body .content {
+body.single .c-content__body .wp-block-post-content {
 	padding-top: 2rem;
 }
 
