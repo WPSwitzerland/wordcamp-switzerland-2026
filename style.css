@@ -95,11 +95,11 @@
     .c-content__sidebar {
         grid-row: 1;
         position: sticky;
-        top:0;
+        top: var(--wp--preset--spacing--60);
     }
 
     .admin-bar .c-content__sidebar {
-        top: var(--wp-admin--admin-bar--height, 0);
+        top: calc(var(--wp--preset--spacing--60) + var(--wp-admin--admin-bar--height, 0));
     }
 }
 
