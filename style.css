@@ -262,7 +262,7 @@ figure {
     }
 }
 
-.c-postcard figure {
+.c-postcard .wp-block-post-featured-image {
     grid-column: 1;
     grid-row: 1;
     max-width: 100% !important;
@@ -275,7 +275,7 @@ figure {
 }
 
 @container (min-width: 500px) {
-    .c-postcard figure {
+    .c-postcard .wp-block-post-featured-image {
         grid-column: 1;
         grid-row: 1;
     }
