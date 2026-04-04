@@ -221,7 +221,7 @@
 }
 
 .wp-block-group.is-style-section-1 + .wp-block-group.is-style-section-1 {
-    margin-block-start: 2rem;
+    margin-block-start: 8rem;
 }
 
 .wp-block-group.is-style-section-1 > * {
