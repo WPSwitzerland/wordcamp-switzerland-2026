@@ -51,14 +51,14 @@
     display: grid;
     align-items: start;
     gap: 2.222222rem;
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     grid-template-rows: auto;
 }
 
 @media screen and (min-width: 783px) {
     .c-content__columns {
         gap: 4.222222rem;
-        grid-template-columns: minmax(0, 1fr) minmax(0, 2fr);
+        grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
         grid-template-rows: 1fr;
     }
 }
