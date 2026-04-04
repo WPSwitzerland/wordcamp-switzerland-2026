@@ -1,10 +1,10 @@
-:root :where(a:where(:not(.wp-element-button))) {
+:root :where(a:where(:not(.wp-element-button):not(.wp-block-button__link))) {
 	text-decoration-color: color-mix(in srgb, currentColor 65%, transparent 100%);
     text-underline-offset: .25rem;
 	transition: text-decoration-color 600ms ease;
 }
 
-:root :where(a:where(:not(.wp-element-button)):hover) {
+:root :where(a:where(:not(.wp-element-button):not(.wp-block-button__link)):hover) {
 	text-decoration-line: revert-layer;
 	text-decoration-color: currentColor;
 }
