@@ -6,38 +6,39 @@
     line-height: 1.4 !important;
 }
 
-.is-style-text-display {
+.is-style-text-display,
+.c-content__sidebar .wp-block-post-title {
     font-family: var(--wp--preset--font-family--playfair-display);
     font-weight: 500;
     line-height: 1.2;
 }
 
 @media screen and (min-width: 768px) {
-    .c-main-title {
+    .c-content__sidebar .wp-block-post-title {
         font-size: 44px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .c-main-title {
+    .c-content__sidebar .wp-block-post-title {
         font-size: 38px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .c-main-title {
+    .c-content__sidebar .wp-block-post-title {
         font-size: 41px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .c-main-title {
+    .c-content__sidebar .wp-block-post-title {
         font-size: 44px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .c-main-title {
+    .c-content__sidebar .wp-block-post-title {
         font-size: 44px;
     }
 }
