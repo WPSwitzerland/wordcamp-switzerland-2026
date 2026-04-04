@@ -221,6 +221,10 @@
     }
 }
 
+.wp-block-group.is-style-section-3 {
+    background-color: var(--wp--preset--color--custom-lightest-box);
+}
+
 .c-main {
     margin-top: 0 !important;
 }
