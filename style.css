@@ -306,3 +306,8 @@
         padding-top: 2rem;
     }
 }
+
+div.sharedaddy h3.sd-title {
+    font-size: var(--wp--preset--font-size--large);
+}
+
