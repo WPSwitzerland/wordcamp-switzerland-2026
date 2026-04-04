@@ -256,3 +256,9 @@
 .c-main {
     margin-top: 0 !important;
 }
+
+@media screen and (min-width:782px){
+    .wp-block-post-content {
+        padding-top: 2rem;
+    }
+}
