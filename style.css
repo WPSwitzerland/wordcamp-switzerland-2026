@@ -262,6 +262,7 @@
 .c-postcard figure {
     grid-column: 1;
     grid-row: 1;
+    max-width: 100% !important;
 }
 
 .c-postcard > .wp-block-group {
