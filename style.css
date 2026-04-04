@@ -2,10 +2,6 @@
     margin: 0;
 }
 
-figure {
-    max-width: 100%;
-}
-
 .is-style-text-subtitle {
     font-size: 1.375rem;
     line-height: 1.4 !important;
