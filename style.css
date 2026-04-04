@@ -308,6 +308,6 @@
 }
 
 div.sharedaddy h3.sd-title {
-    font-size: var(--wp--preset--font-size--large);
+    font-size: var(--wp--preset--font-size--large) !important;
 }
 
