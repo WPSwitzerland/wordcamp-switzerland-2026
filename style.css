@@ -309,5 +309,6 @@
 
 div.sharedaddy h3.sd-title {
     font-size: var(--wp--preset--font-size--large) !important;
+    font-weight: 500 !important;
 }
 
