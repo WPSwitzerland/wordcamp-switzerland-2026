@@ -250,9 +250,10 @@
     display: grid;
     grid-template-rows: auto;
     gap: 1rem;
+    container-type: inline-size;
 }
 
-@media screen and (min-width:782px){
+@container (min-width: 500px) {
     .c-postcard {
         gap: 2rem;
         grid-template-columns: minmax(0,1fr) minmax(0,2fr);
@@ -271,7 +272,7 @@
     margin: 0;
 }
 
-@media screen and (min-width:782px){
+@container (min-width: 500px) {
     .c-postcard figure {
         grid-column: 1;
         grid-row: 1;
