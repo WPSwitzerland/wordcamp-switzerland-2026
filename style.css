@@ -66,6 +66,12 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+@media screen and (max: 599px) {
+	.c-content__sidebar .c-navigation {
+		display: none;
+	}
+}
+
 .c-content__columns {
     display: grid;
     align-items: start;
