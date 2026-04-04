@@ -75,6 +75,9 @@
 }
 
 .wp-block-post-content > .wp-block-heading,
+.wp-block-post-content > .wp-block-image,
+.wp-block-post-content > .wp-block-embed,
+.wp-block-post-content > .wp-block-video,
 .wp-block-post-content > .wp-block-jetpack-map {
     padding-inline-start: 0;
 }
