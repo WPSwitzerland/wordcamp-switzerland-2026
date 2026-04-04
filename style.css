@@ -67,7 +67,7 @@
 }
 
 .wp-block-post-content > * {
-    padding-inline-start: 2rem;
+    padding-inline-start: 1rem;
 }
 
 .wp-block-post-content > .alignfull {
@@ -77,4 +77,10 @@
 .wp-block-post-content > .wp-block-heading,
 .wp-block-post-content > .wp-block-jetpack-map {
     padding-inline-start: 0;
+}
+
+@media screen and (min-width:782px){
+    .wp-block-post-content > * {
+        padding-inline-start: 2rem;
+    }
 }
