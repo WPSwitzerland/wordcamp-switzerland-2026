@@ -373,6 +373,10 @@ body.single .c-content__body .wp-block-post-content {
 	padding-top: 2rem;
 }
 
+body.blog .c-content__body {
+	padding-top: 2rem;
+}
+
 @media screen and (min-width: 783px) {
 	body.single .c-content__body .wp-block-post-title {
 		margin-block-start: 2rem;
