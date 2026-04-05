@@ -374,7 +374,7 @@ body.single .c-content__body .wp-block-post-content {
 }
 
 body.blog .c-content__body {
-	padding-top: 2rem;
+	padding-top: 2rem !important;
 }
 
 @media screen and (min-width: 783px) {
