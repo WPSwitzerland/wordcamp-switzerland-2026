@@ -144,6 +144,7 @@ h1, h2, h3, h4, h5, h6 {
         grid-row: 1;
         position: sticky;
         top: 2rem;
+		padding-left: 2rem !important;
     }
 
     .admin-bar .c-content__sidebar {
