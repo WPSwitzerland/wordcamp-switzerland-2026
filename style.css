@@ -143,9 +143,12 @@ h1, h2, h3, h4, h5, h6 {
     .c-content__sidebar {
         grid-row: 1;
         position: sticky;
-        top: 0;
-		padding-top: 2rem;
+        top: 2rem;
 		padding-left: 2rem !important;
+    }
+
+    .admin-bar .c-content__sidebar {
+        top: calc(2rem + var(--wp-admin--admin-bar--height, 0));
     }
 }
 
