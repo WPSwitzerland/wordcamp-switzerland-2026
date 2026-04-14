@@ -59,6 +59,11 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.2;
 }
 
+.is-style-text-display a,
+.c-content__sidebar .wp-block-site-title a {
+    text-decoration: none;
+}
+
 .c-content__sidebar .wp-block-site-title {
     font-size: 32px;
 }
