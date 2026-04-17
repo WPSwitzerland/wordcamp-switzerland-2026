@@ -73,42 +73,49 @@ figcaption a {
     text-decoration: none;
 }
 
-.c-content__sidebar .wp-block-site-title {
+.c-content__sidebar .wp-block-site-title,
+.c-content__sidebar .is-style-text-display {
     font-size: 32px;
 }
 
 @media screen and (min-width: 768px) {
-    .c-content__sidebar .wp-block-site-title {
+    .c-content__sidebar .wp-block-site-title,
+	.c-content__sidebar .is-style-text-display {
         font-size: 44px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .c-content__sidebar .wp-block-site-title {
+    .c-content__sidebar .wp-block-site-title,
+	.c-content__sidebar .is-style-text-display {
         font-size: 38px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .c-content__sidebar .wp-block-site-title {
+    .c-content__sidebar .wp-block-site-title,
+	.c-content__sidebar .is-style-text-display {
         font-size: 28px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .c-content__sidebar .wp-block-site-title {
+    .c-content__sidebar .wp-block-site-title,
+	.c-content__sidebar .is-style-text-display {
         font-size: 34px;
     }
 }
 
 @media screen and (min-width: 1440px) {
-    .c-content__sidebar .wp-block-site-title {
+    .c-content__sidebar .wp-block-site-title,
+	.c-content__sidebar .is-style-text-display {
         font-size: 38px;
     }
 }
 
 @media screen and (min-width: 1920px) {
-    .c-content__sidebar .wp-block-site-title {
+    .c-content__sidebar .wp-block-site-title,
+	.c-content__sidebar .is-style-text-display {
         font-size: 42px;
     }
 }
