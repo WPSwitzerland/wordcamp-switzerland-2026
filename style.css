@@ -91,19 +91,25 @@ figcaption a {
 
 @media screen and (min-width: 1280px) {
     .c-content__sidebar .wp-block-site-title {
-        font-size: 41px;
+        font-size: 28px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .c-content__sidebar .wp-block-site-title {
-        font-size: 44px;
+        font-size: 34px;
     }
 }
 
 @media screen and (min-width: 1440px) {
     .c-content__sidebar .wp-block-site-title {
-        font-size: 44px;
+        font-size: 38px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .c-content__sidebar .wp-block-site-title {
+        font-size: 42px;
     }
 }
 
@@ -131,7 +137,7 @@ figcaption a {
 
 @media screen and (min-width: 1280px) {
     .c-content__columns {
-        grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+        grid-template-columns: minmax(0, 1fr) minmax(0, 3fr);
     }
 }
 
