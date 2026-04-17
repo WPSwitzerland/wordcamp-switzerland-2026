@@ -269,7 +269,7 @@ figcaption a {
 }
 
 .wp-block-group.is-style-section-1 + .wp-block-group.is-style-section-1 {
-    margin-block-start: 8rem;
+    margin-block-start: 6rem;
 }
 
 .wp-block-group.is-style-section-1 > * {
