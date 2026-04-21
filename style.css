@@ -423,6 +423,6 @@ body.single .c-content__body .wp-block-post-content {
 	display:none;
 }
 
-.lang-fr .lang-de, .lang-en .lang-en {
+.lang-fr .lang-de, .lang-fr .lang-en {
 	display:none;
 }
