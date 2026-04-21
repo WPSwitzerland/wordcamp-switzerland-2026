@@ -281,12 +281,6 @@ figcaption a {
     padding-inline-start: 1rem;
 }
 
-.wp-block-group.is-style-section-1 > .wp-block-heading,
-.wp-block-group.is-style-section-1 > .wp-block-post-title,
-.wp-block-group.is-style-section-1 > .wp-block-group {
-    padding-inline-start: 0;
-}
-
 .wp-block-group.is-style-section-1 > .alignfull {
     margin-inline: 0 !important;
 }
@@ -294,14 +288,6 @@ figcaption a {
 @media screen and (min-width:782px){
     .wp-block-group.is-style-section-1 > * {
         padding-inline-start: 2rem;
-    }
-}
-
-@media screen and (min-width:782px){
-    .wp-block-group.is-style-section-1 > .wp-block-heading,
-    .wp-block-group.is-style-section-1 > .wp-block-post-title,
-    .wp-block-group.is-style-section-1 > .wp-block-group {
-        padding-inline-start: 0;
     }
 }
 
