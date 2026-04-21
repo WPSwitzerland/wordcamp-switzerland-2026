@@ -414,3 +414,15 @@ body.single .c-content__body .wp-block-post-content {
 		margin-block-start: 2rem;
 	}
 }
+
+.lang-en .lang-de, .lang-en .lang-fr {
+	display:none;
+}
+
+.lang-de .lang-en, .lang-de .lang-fr {
+	display:none;
+}
+
+.lang-fr .lang-de, .lang-en .lang-en {
+	display:none;
+}
