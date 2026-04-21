@@ -231,6 +231,11 @@ figcaption a {
     }
 }
 
+.wp-block-heading b, .wp-block-heading strong, .wp-block-heading em, .wp-block-heading i {
+	font-weight: inherit;
+	font-style: normal;
+}
+
 .wp-block-post-content {
 	padding-inline: 0 !important;
 }
