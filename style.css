@@ -419,14 +419,18 @@ body.single .c-content__body .wp-block-post-content {
 	}
 }
 
-.lang-en .lang-de, .lang-en .lang-fr {
+.lang-en .lang-de, .lang-en .lang-fr, .lang-en .lang-it {
 	display:none;
 }
 
-.lang-de .lang-en, .lang-de .lang-fr {
+.lang-de .lang-en, .lang-de .lang-fr, .lang-de .lang-it {
 	display:none;
 }
 
-.lang-fr .lang-de, .lang-fr .lang-en {
+.lang-fr .lang-de, .lang-fr .lang-en, .lang-fr .lang-it {
+	display:none;
+}
+
+.lang-it .lang-de, .lang-it .lang-en, .lang-it .lang-fr {
 	display:none;
 }
