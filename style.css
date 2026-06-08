@@ -20,7 +20,7 @@ a:not(.wp-block-button__link) {
     text-decoration-color: currentColor;
 }
 
-@media screen and (min-width: 160em) {
+@media screen and (min-width: 100em) {
     .wp-block-post-content {
         max-width: 50rem !important;
     }
