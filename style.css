@@ -468,9 +468,17 @@ body.single .c-content__body .wp-block-post-content {
     text-align: left;
 }
 
+.tix_tickets_table tr {
+    vertical-align: text-top;
+}
+
 .tix_tickets_table th,
 .tix_tickets_table td {
     padding: 0 1.5rem 1.5rem 0;
+}
+
+.tix-tickets-list .tix-ticket-title {
+    font-weight: 600;
 }
 
 select,
