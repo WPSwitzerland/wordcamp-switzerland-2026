@@ -24,6 +24,11 @@ a:not(.wp-block-button__link) {
     .wp-block-post-content {
         max-width: 50rem !important;
     }
+
+    .wp-block-post-content
+        > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+        max-width: 50rem !important;
+    }
 }
 
 a:focus {
