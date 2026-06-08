@@ -310,6 +310,7 @@ figcaption a {
 
 .wp-block-group.is-style-section-1 > * {
     padding-inline-start: 1rem;
+    margin-inline-start: 0 !important;
 }
 
 .wp-block-group.is-style-section-1 > .wp-block-heading:first-child,
