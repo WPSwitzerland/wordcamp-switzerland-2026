@@ -20,6 +20,12 @@ a:not(.wp-block-button__link) {
     text-decoration-color: currentColor;
 }
 
+@media screen and (min-width: 160em) {
+    :root {
+        --wp--style--global--content-size: 50rem;
+    }
+}
+
 a:focus {
     outline-color: currentColor;
     outline-offset: 0.125rem;
