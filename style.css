@@ -21,7 +21,7 @@ a:not(.wp-block-button__link) {
 }
 
 @media screen and (min-width: 160em) {
-    :root {
+    body {
         --wp--style--global--content-size: 50rem;
     }
 }
